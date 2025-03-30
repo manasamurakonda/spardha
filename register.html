@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>register</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,40 +19,15 @@
         <a href="contact.html">Contact</a>
         <a href="about.html">About</a>
     </div>
-    <form>
-        <label>name: </label>
-        <input type="text" required>
-        <label>mail : </label>
-        <input type="email" required>
-        <label>college name : </label>
-        <input type="text" required>
-        <label>rollno: </label>
-        <input type="text" required>
-        <label>Branch : </label>
-        <select required>
-            <option value="cse">CSE</option>
-            <option value="csm">CSM</option>
-            <option value="aid">AID</option>
-            <option value="cso">CSO</option>
-            <option value="aim">AIM</option>
-            <option value="cic">CIC</option>
-        </select>
-        <label>section : </label>
-        <select required>
-            <option value="a">A</option>
-            <option value="b">B</option>
-            <option value="c">C</option>
-            <option value="d">D</option>
-        </select>
-        <label>phone no : </label>
-        <input type="tel" required>
-        <p>Willing to participate in :</p>
-        <label><input type="checkbox" value="algo arena">Algo Arena</label>
-        <label><input type="checkbox" value="treasure troopers"> Treasure Troopers</label>
-        <label><input type="checkbox" value="game of codes">Game of codes</label>
-        <label><input type="checkbox" value="riddle rampage">Riddle Rampage</label>
-        <button type="submit">submit</button>
-    </form>
+    <div class="event-container">
+        <h2>Select an Event to Register</h2>
+        <div class="event-buttons">
+            <button onclick="location.href='algo-arena.html'">Algo Arena</button>
+            <button onclick="location.href='treasure-troopers.html'">Treasure Troopers</button>
+            <button onclick="location.href='game-of-codes.html'">Game of Codes</button>
+            <button onclick="location.href='riddle-rampage.html'">Riddle Rampage</button>
+        </div>
+    </div>
     <footer>
         <div class="logo">
             <img src="acm-logo.jpg" alt="Website Logo" width="40px">
